@@ -1,0 +1,124 @@
+body {
+    background: #000 url('./../images/epla-bck.png') no-repeat top center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    transition: ease .3s;
+}
+
+a:hover {
+    color: #ff5a5a;
+    transition: ease .3s;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #151821;
+}
+
+.header .header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav,
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header .header__nav {
+    display: flex;
+}
+
+.header .nav__item--parent {
+    position: relative;
+}
+
+.header .nav__item {
+    padding: 31px 18px;
+}
+
+.header .nav__link {
+    position: relative;
+    text-transform: uppercase;
+}
+
+.header .nav__link::before {
+    position: absolute;
+    content: '';
+    left: -18px;
+    right: -18px;
+    bottom: -32px;
+    height: 2px;
+    background: #ff5a5a;
+    opacity: 0;
+    transition: ease .3s;
+}
+
+.header .nav__link:hover {
+    color: #ff5a5a;
+}
+
+.header .nav__link:hover::before {
+    opacity: 1;
+    transition: ease .3s;
+}
+
+.header .nav__link,
+.header .sub-menu__link {
+    color: #fff;
+}
+
+.header .nav__sub-menu {
+    position: absolute;
+    top: 100%;
+    transform: translateY(-25%);
+    padding: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: ease .3s;
+    background: #fff;
+    border: 1px solid #ccc;
+    white-space: nowrap;
+}
+
+.nav__item--parent:hover .nav__sub-menu  {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: ease .3s;
+}
+
+.header .sub-menu__link {
+    color: #000;
+    padding: 10px 20px;
+    display: block;
+}
+
+.header .sub-menu__link:hover {
+    background: #ff5a5a;
+    color: #fff;
+}
+
+
+/* search */
+.search__input {
+    width: 190px;
+    border: 1px solid #ccc;
+    padding: 5px 7px;
+    font-size: 14px;
+}
+
+/* btn */
+.btn {
+    padding: 10px 5px;
+}

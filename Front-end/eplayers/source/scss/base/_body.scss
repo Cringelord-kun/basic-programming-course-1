@@ -1,0 +1,40 @@
+body {
+    background: $black url('./assets/img/epla-bck.png') no-repeat top center;
+    color: $white;
+    font-family: $ptSans;
+    font-size: $fontL;
+    font-weight: $light;
+    line-height: 160%;
+    overflow-x: hidden;
+}
+
+body.noscroll {
+    overflow: hidden;
+    padding-right: 19px;
+}
+
+a {
+    color: $orange;
+    text-decoration: none;
+    transition: ease .3s;
+}
+
+a:hover {
+    transition: ease .3s;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    display: block;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}

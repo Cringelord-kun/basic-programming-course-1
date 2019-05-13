@@ -1,0 +1,44 @@
+.btn {
+    display: inline-block;
+    font-weight: $regular;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 2px solid transparent;
+    padding: 8px 12px;
+    line-height: 1.5;
+    cursor: pointer;
+    transition: ease .3s;
+    outline: none;
+    background: transparent;
+    font-family: $montserrat;
+    font-size: 13px;
+}
+
+.btn:hover,
+.btn.active {
+    transition: ease .3s;
+}
+
+.btn--medium {
+    min-width: 230px;
+}
+
+.btn--full-width {
+    width: 100%;
+}
+
+.btn--orange {
+    color: $white;
+    border-color: $orange;
+    background: $orange;
+    font-weight: $semiBold;
+}
+
+.btn--orange:hover,
+.btn--orange.is-active {
+    background: darken($orange, 10%);
+    border-color: darken($orange, 10%);
+    color: $white;
+}

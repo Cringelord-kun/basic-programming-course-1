@@ -1,0 +1,12 @@
+@include fontFace('Montserrat', './fonts/Montserrat/Montserrat-Regular', $regular);
+@include fontFace('Montserrat', './fonts/Montserrat/Montserrat-Medium', $medium);
+@include fontFace('Montserrat', './fonts/Montserrat/Montserrat-SemiBold', $semiBold);
+@include fontFace('Montserrat', './fonts/Montserrat/Montserrat-Bold', $bold);
+
+@include fontFace('PT Sans', './fonts/PT_Sans/PT_Sans-Regular', $regular);
+@include fontFace('PT Sans', './fonts/PT_Sans/PT_Sans-Bold', $bold);
+
+$ptSans: 'PT Sans';
+$montserrat: 'Montserrat';
+
+$iconfont: 'iconfont' !important;
