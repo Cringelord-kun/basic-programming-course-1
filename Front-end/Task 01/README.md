@@ -11,10 +11,10 @@ Linki do szablonu na discordzie na kanale ui-ux-design
 
 ## nauczcie się emmet
 https://docs.emmet.io/
-* .class // classa
-* #id // id
-* * // mnożnik elementów
-* + // dodanie elementu na tym samymy poziommie
-* > // wewnętrz elementu
-* {text} // wyplucie tekstu
-* $ // zwraca liczbę
+* `.class` // classa
+* `#id` // id
+* `*` // mnożnik elementów
+* `+` // dodanie elementu na tym samymy poziommie
+* `>` // wewnętrz elementu
+* `{text}` // wyplucie tekstu
+* `$` // zwraca liczbę
